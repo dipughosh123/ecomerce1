@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Merriweather:wght@300&family=Montserrat&family=Oswald:wght@700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <script
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <div class="div1">
+        <p>
+          <a href="#"
+            >Due to the <strong>COVID 19</strong> epidemic, orders may be
+            processed with a slight delay</a
+          >
+        </p>
+      </div>
+      <div class="navparent">
+        <div class="nav1">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">My Acount</a></li>
+            <li><a href="#">wishlist</a></li>
+            <li><a href="#">Order Tracking</a></li>
+          </ul>
+        </div>
+        <div class="nav2">
+          <img src="images\hand.png" alt="" />
+          <p>100% Secure delivery without contacting the courier</p>
+        </div>
+        <div class="nav3">
+          <p>
+            Need help? Call Us: <span><strong>+0020 500</strong> </span>
+          </p>
+        </div>
+        <div class="nav4">
+          <select name="" id="">
+            <option value="english">English</option>
+            <option value="Spanis">Spanis</option>
+            <option value="german">German</option>
+          </select>
+          <select name="" id="">
+            <option value="usd">USD</option>
+            <option value="INR">INR</option>
+            <option value="gbp">GBP</option>
+          </select>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+      <div class="logodivparent">
+        <div class="logodiv1">
+          <img width="164px" src="images\bacola-logo.png" alt="" /><br />
+          <p>Online Grocery Shopping Center</p>
+        </div>
+        <div class="logodiv2">
+          <p>Your Location</p>
+          <br />
+          <select name="" id="">
+            <option value="india">india</option>
+            <option value="pakisthan">pakisthan</option>
+            <option value="bangladesh">bangladesh</option>
+          </select>
+        </div>
+        <div class="logodiv3">
+          <div class="search">
+            <input type="search" placeholder="search for products........" />
+            <a href=""
+              ><i class="fa fa-search search-icon" style="font-size: 36px"></i
+            ></a>
+          </div>
+        </div>
+        <div class="logodiv4">
+          <div class="people">
+            <a href="#">
+              <i
+                class="fa fa-user people-icon"
+                style="font-size: 48px; color: black"
+              ></i
+            ></a>
+          </div>
+          <p>$0.00</p>
+          <div class="cart">
+            <a href="#">
+              <i
+                class="fa fa-shopping-cart cart-icon"
+                style="font-size: 40px; color: red"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+      <div class="categorynavparent">
+        <div class="category1">
+          <ul type="none">
+            <li>
+              <a href="#">
+                <span
+                  ><i class="fa fa-bars" style="font-size: 15px"> </i> ALL
+                  CATEGORIES
+                  <i class="fa fa-caret-down" aria-hidden="true"></i> </span></a
+              ><br />
+              <p>Total 63 Products</p>
+            </li>
+          </ul>
+        </div>
+        <div class="category2">
+          <ul>
+            <li>
+              <a href="#"
+                >Home <i class="fa fa-caret-down" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                >Shop <i class="fa fa-caret-down" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li><a href="#"> Meat And Seafood</a></li>
+            <li><a href="#">backery</a></li>
+            <li><a href="#">beverages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/slider-image-6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <p class="exclusive">Exclusive Offfer <span>-20% OFF</span></p>
+            <h1 class="sliderh1">A different kind of grocery store</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images\slider-image-7 (1).jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <p class="exclusive">Exclusive Offfer <span>-40% OFF</span></p>
+            >
+            <h1 class="sliderh1">Quality freshness guaranteed</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/slider-image-6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <p class="exclusive">Exclusive Offfer <span>-20% OFF</span></p>
+            <h1 class="sliderh1">A different kind of grocery store</h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+    <div class="mainbig">
+      <div class="mainbig1">
+        <img width="100%" src="images\baverages-1.jpg" alt="" /> <br />
+        <center><a href="#">Beverages</a><br /><span>11 items</span></center>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\biscuitssnacks-1.jpg" alt="" />
+        <p>Biscuit And Snacks<br /><span>6 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\breadbakery-1.jpg" alt="" />
+        <p>Breads And Bakery<br /><span>6 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\dairy-1.jpg" alt="" />
+        <p>Breakfast And dairy<br /><span>7 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\frozenfoods.png" alt="" />
+        <p>Frozen Foods<br /><span>7 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\fruitvegetables-1.jpg" alt="" />
+        <p>Fruits And Vegetables<br /><span>7 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\grocery and staples.png" alt="" />
+        <p>Grocery And Staples<br /><span>7 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\household-1.jpg" alt="" />
+        <p>Household Needs<br /><span>7 Items</span></p>
+      </div>
+
+      <div class="mainbig2">
+        <img src="images\meat-1.jpg" alt="" />
+        <p>Meatss And Seafoods<br /><span>7 Items</span></p>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+    <div class="parentbigpro">
+      <div class="bigpro1">
+        <p class="weekpara">Deals of the <strong>Week!</strong></p>
+        <img
+          class="product"
+          src="images\bigproduct.jpg"
+          width="350px"
+          alt=""
+        /><br />
+        <p class="percent">19%</p>
+        <h2><del>$5.49 </del> $4.49</h2>
+        <br />
+        <h5>Chobani Complete Vanilla Greek Yogurt</h5>
+        <p class="kgstock">
+          1Kg <strong><span class="stock">In Stock</span></strong>
+        </p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="available">Available: <span class="sixty2">62</span></p>
+        <br />
+        <meter value="80" min="0" max="100"></meter>
+      </div>
+
+      <div class="bigpro2">
+        <img src="images\bigproduct2.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">All Natural Italian-Style Chicken Meatballs</h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        
+
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+         
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+
+      <div class="bigpro2 firstbigpro">
+        <img src="images\image3.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">
+          Angie’s Boomchickapop Sweet & Salty Kettle Corn
+        </h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+
+      <div class="bigpro2 firstbigpro">
+        <img src="images\image4.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">Field Roast Chao Cheese Creamy Original</h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+      <div class="bigpro2 firstbigpro">
+        <img src="images\image5.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">
+          Foster Farms Takeout Crispy Classic Buffalo 
+        </h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+
+      <div class="bigpro2 firstbigpro">
+        <img src="images\image6.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">Blue Diamond Almonds Lightly Salted</h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+
+      <div class="bigpro2 firstbigpro">
+        <img src="images\blueberry.jpg" alt="" /><br />
+        <p class="twenty3">23%</p>
+        <h6 class="p1heading">Blueberries – 1 Pint Package</h6>
+        <p class="stock2"><strong>In Stock</strong></p>
+        <br />
+        <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i
+        ><i class="fa fa-star-o"></i> 1 <br />
+        <p class="price2">
+          <del>$9.35</del>
+          <span class="price2span"><strong>$7.35</strong></span>
+        </p>
+        <i class="fa fa-heart-o wishlist" style="font-size: 36px"></i>
+        <div class="expand1"><img class="" src="images\expand.png" alt=""></div>
+        <a href="#" class="addtocart">Add to cart</a>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+    <div class="imageparent">
+      <div class="image1">
+        <img src="images\bacola-banner-1.jpg" alt="" />
+        <p class="discount">WEEKEND DISCOUNT 40%</p>
+        <h3 class="cockie">Cockie And Icecream</h3>
+        <p class="bacola">Bacola weekend discound</p>
+        <a href="#" class="buttonClass1">Shop Now</a>
+      </div>
+      <div class="image2">
+        <img src="images\bacola-banner-2.jpg" alt="" />
+        <p class="discount">WEEKEND DISCOUNT 30%</p>
+        <h3 class="cockie">Cockie And Icecream</h3>
+        <p class="bacola">Bacola weekend discound</p>
+        <a href="#" class="buttonClass2">Shop Now</a>
+        
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="bestsellerparent">
+      <div class="bestseller1">
+        <h5>BEST SELLER</h5>
+        <p>Do not miss the current offers until the end of March.</p>
+
+      </div>
+      <div class="bestseller2">
+        <p>view All <i class="fa fa-arrow-right"></i></p>
+
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="product2parent">
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product21.jpg" alt="">
+        <p class="product21heading"><strong>All Natural Italian-Style Chicken Meatballs</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+
+<a href="#" class="buttonClass3">Add to Cart</a>
+
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product22.jpg" alt="">
+        <p class="product21heading"><strong>Angie’s Boomchickapop Sweet & Salty Kettle Corn</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+       <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product23.jpg" alt="">
+        <p class="product21heading"><strong>Field Roast Chao Cheese Creamy Original</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product24.jpg" alt="">
+        <p class="product21heading"><strong>Blue Diamond Almonds Lightly Salted</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product25.jpg" alt="">
+        <p class="product21heading"><strong>Fresh Organic Broccoli Crowns</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="extraparent">
+      <div class="extra">
+      <p><strong>SAVE AN EXTRA 5-10 % ON EVERY AUTOSHIP ORDER!</strong></p></div>
+    </div>
+    </div>
+    <div class="product3parent">
+       
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product31.jpg" alt="">
+        <p class="product21heading"><strong>Zevia Kidz Strawberry Lemonade Zero Calorie</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product32.jpg" alt="">
+        <p class="product21heading"><strong>Wheat Thins Original Crackers</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product33.jpg" alt="">
+        <p class="product21heading"><strong>Werther’s Original Caramel Hard Candies</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product34.jpg" alt="">
+        <p class="product21heading"><strong>Warrior Blend Organic Protein</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product35.jpg" alt="">
+        <p class="product21heading"><strong>Vital Farms Pasture-Raised Egg Bites Bacon </strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product36.jpg" alt="">
+        <p class="product21heading"><strong>USDA Choice Angus Beef Stew Meat </strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product37.jpg" alt="">
+        <p class="product21heading"><strong>Tropicana Pineapple Mango Drink</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product38.jpg" alt="">
+        <p class="product21heading"><strong>Organic very Sweet Lime Fruits</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product39.jpg" alt="">
+        <p class="product21heading"><strong>Fresh Organic Strawberry fruits</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+ 
+      <div class="product21">
+        <p class="percent23">23%</p><i class="fa fa-heart-o wishlist2" style="font-size:36px;"></i>
+        <img src="images\product310.jpg" alt="">
+        <p class="product21heading"><strong>Sol-ti Coconut Charcoal SuperAde</strong></p>
+        <p class="product2stock"><strong>In Stock</strong></p>
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> 1
+<h4><del>$7.34</del><span> $5.45</span></h4>
+<div class="expand2"><img class="" src="images\expand.png" alt=""></div>
+<a href="#" class="buttonClass3">Add to Cart</a>
+      </div>
+
+    </div>
+    <div style="clear:both"></div>
+    <div class="footerproductparent">
+      <div class="footerproduct1">
+        <img class=" footerproductimage"src="images\background1.jpg" alt="">
+        <p class="weekend">WEEKEND DISCOUNT 20%</p>
+      
+      <h2 class="footerproducth2">Natural egg</h2>
+      <p class="footerproductpara">eat one everyday</p>
+      <a href="#" class="buttonClass4">Shop Now</a>
+    </div>
+      <div class="footerproduct2">
+        <img  class=" footerproductimage" src="images\background2.jpg" alt="">
+        <p class="weekend">WEEKEND DISCOUNT 20%</p>
+        <h2 class="footerproducth2">Taste the Best</h2>
+        <p class="footerproductpara">shine the morning</p>
+        <a href="#" class="buttonClass4">Shop Now</a>
+      </div>
+      <div class="footerproduct3">
+        <img class=" footerproductimage" src="images\background3.jpg" alt="">
+        <p class="weekend">WEEKEND DISCOUNT 20%</p>
+        <h2 class="footerproducth2">Ditch The Junk</h2>
+        <p class="footerproductpara">breakfast made better</p>
+        <a href="#" class="buttonClass4">Shop Now</a>
+      </div>
+    </div>
+    <div class="footercardparent">
+      <div class="footercard1">
+        <img width="100%" src="images\footercard1.jpg" alt="">
+        <p class="footercardgrey">TIPS & TRICKS</p>
+        <h5>But I must explain to you how all this mistaken idea</h5>
+        <p><span class="footercardgrey">3 May 2021</span> 3 comments<span class="footercardgrey"> by</span>  Bacola</p>
+      </div>
+      <div class="footercard2">
+        <img width="100%" src="images\footercard2.jpg" alt="">
+        <p class="footercardgrey">GROCERY</p>
+        <h5>The Problem With Typefaces on the Web</h5>
+        <p><span class="footercardgrey">3 May 2021</span> 3 comments<span class="footercardgrey"> by</span>  Bacola</p>
+      </div>
+      <div class="footercard2">
+        <img  width="100%" src="images\footercard3.jpg" alt="">
+        <p class="footercardgrey">GROCERY</p>
+        <h5>English Breakfast Tea With Tasty Donut Desserts</h5>
+        <p><span class="footercardgrey">3 May 2021</span> 3 comments<span class="footercardgrey"> by</span>  Bacola</p>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="footerblueparent">
+      <div class="footerblue1">
+        <p class="whitetext">$20 discount for your first order</p>
+        <h2 class="whitetext">Join our newsletter and get...</h2>
+        <p class="greytext">Join our email subscription now to get updates on promotions and coupons.</p>
+
+        <div class="subscription-box">
+
+          <form action="#" method="post">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+          </form>
+      </div>
+
+      </div>
+      <div class="footerblue2">
+        <img src="images\coupon.png" alt="">
+      </div>
+    </div>
+
+    <div class="footer1parent">
+      <div class="footer1child">
+        <p class="firstfooter1">Everyday fresh products</p>
+        <p class="firstfooter1">Free delivery for order over $70</p>
+        <p class="firstfooter1">
+          Daily Mega Discounts</p>
+          <p class="lastfooter1">Best price on the market</p>
+      </div>
+    
+     <div class="footer1child2">
+
+      <div class="footer1child2child">
+        <h6>FRUIT & VEGETABLES</h6>
+        <ul class="ulclass"type="none">
+          <li><a href="">Fresh Vegetables</a></li>
+          <li><a href="">Herbs & Seasonings</a></li>
+          <li><a href="">Fresh Fruits</a></li>
+          <li><a href="">Cuts & Sprouts</a></li>
+          <li><a href="">Exotic Fruits & Veggies</a></li>
+          <li><a href="">Packaged Produce</a></li>
+          <li><a href="">Party Trays</a></li>
+        </ul>
+      </div>
+      <div class="footer1child2child">
+        <h6>BREAKFAST & DAIRY</h6>
+        <ul class="ulclass"type="none">
+          <li><a href="">Milk & Flavoured Milk</a></li>
+          <li><a href="">Butter and Margarine</a></li>
+          <li><a href="">Cheese</a></li>
+          <li><a href="">Eggs Substitutes</a></li>
+          <li><a href="">Honey</a></li>
+          <li><a href="">Marmalades</a></li>
+          <li><a href="">Sour Cream and Dips</a></li>
+          <li><a href="">Yogurt</a></li>
+      </div>
+      <div class="footer1child2child">
+        <h6>MEAT & SEAFOOD</h6>
+        <ul class="ulclass"type="none">
+          <li><a href="">Breakfast Sausage</a></li>
+          <li><a href="">Dinner Sausage</a></li>
+          <li><a href="">Beef</a></li>
+          <li><a href="">Chicken</a></li>
+          <li><a href="">Sliced Deli Meat</a></li>
+          <li><a href="">Shrimp</a></li>
+          <li><a href="">Wild Caught Fillets</a></li>
+          <li><a href="">Crab and Shellfish</a></li>
+          <li><a href="">Farm Raised Fillets</a></li>
+      </div>
+      <div class="footer1child2child">
+        <h6>BEVERAGES</h6>
+        <ul class="ulclass"type="none">
+          <li><a href="">Water</a></li>
+          <li><a href="">Sparkling Water</a></li>
+          <li><a href="">Soda & Pop</a></li>
+          <li><a href="">Coffee</a></li>
+          <li><a href="">Milk & Plant-Based Milk</a></li>
+          <li><a href="">Tea & Kombucha</a></li>
+          <li><a href="">Drink Boxes & Pouches</a></li>
+          <li><a href="">Craft Beer</a></li>
+          <li><a href="">Wine</a></li>
+      </div>
+      <div class="footer1child2child">
+        <h6>BREADS & BAKERY</h6>
+        <ul class="ulclass" type="none">
+          <li><a href="">Milk & Flavoured Milk</a></li>
+          <li><a href="">Butter and Margarine</a></li>
+          <li><a href="">Cheese</a></li>
+          <li><a href="">Eggs Substitutes</a></li>
+          <li><a href="">Honey</a></li>
+          <li><a href="">Marmalades</a></li>
+          <li><a href="">Sour Cream and Dips</a></li>
+          <li><a href="">Yogurt</a></li>
+      </div>
+     </div>
+  </div>
+  <footer>
+    <div class="footer2parent">
+      <div class="footer2child1">
+        <i class="fa fa-phone phone" style="font-size:36px"></i>
+          <h4>&ensp; 8 800 555-55</h4>
+        <p class="working">Working 8:00 - 22:00</p>
+      </div>
+      <div class="footer2child2">
+        <h6>Download App on Mobile :</h6>
+        <p class="greytext">
+        
+          15% discount on your first purchase</p>
+      </div>
+      <div class="footer2child3">
+        <img src="images\google-play.png" alt=""><img src="images\app-store.png" alt=""> <i class="fa fa-facebook-f" style="font-size:24px"></i><i class="fa fa-twitter-square" style="font-size:24px"></i><i class="fa fa-instagram" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="footer3">
+      <div class="footer3child1">
+      <p>Copyright 2023 &copy; Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+    </div>
+    <div class="footer3child2">
+      <a href="">Privacy Policy</a> &emsp;<a href="">Terms And condition</a>&emsp; <a href="">cokie</a>
+       <img src="images\payments.jpg" alt="">
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
